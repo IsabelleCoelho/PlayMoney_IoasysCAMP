@@ -15,4 +15,5 @@
     <color name="light_orange_app">#E28C4D</color>
     <color name="tint_grey_app">#8B242424</color>
     <color name="game_gray_app">#6D6B6B</color>
+    <color name="light_blue_app">#31AECE</color>
 </resources>

@@ -23,7 +23,7 @@
         <item name="android:padding">12dp</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:background">@color/white_app</item>
+        <item name="android:background">@drawable/editext_background</item>
         <item name="android:fontFamily">@font/aldrich</item>
         <item name="android:textColorHint">@color/tint_grey_app</item>
     </style>
