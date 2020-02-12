@@ -32,7 +32,7 @@
         android:background="@android:color/transparent"
         />
     <ImageButton
-        android:id="@+id/ButtonIcHelp"
+        android:id="@+id/ButtonHelp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -49,7 +49,7 @@
         android:id="@+id/MissonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toLeftOf="@+id/ButtonIcHelp"
+        app:layout_constraintRight_toLeftOf="@+id/ButtonHelp"
         app:layout_constraintLeft_toRightOf="@+id/ButtonIcBars"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="35dp"
@@ -70,7 +70,7 @@
         android:layout_marginTop="20dp"
         android:text="Objetivo: alcançar R$50,00"
         android:textColor="@color/white_app"
-        android:background="@drawable/ojective"
+        android:background="@drawable/objective"
         android:textSize="25dp"
         android:paddingVertical="15dp"
         android:paddingHorizontal="25dp"

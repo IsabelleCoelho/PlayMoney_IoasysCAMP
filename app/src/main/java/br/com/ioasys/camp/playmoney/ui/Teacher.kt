@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import br.com.ioasys.camp.playmoney.R
-import kotlinx.android.synthetic.main.activity_home_page.*
 import kotlinx.android.synthetic.main.activity_teacher.*
 
 class Teacher : AppCompatActivity() {
@@ -16,7 +15,7 @@ class Teacher : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        ButtonBackGame.setOnClickListener(){
+        ButtonBackGame.setOnClickListener() {
             val intent = Intent(this, HomePage::class.java)
             startActivity(intent)
         }

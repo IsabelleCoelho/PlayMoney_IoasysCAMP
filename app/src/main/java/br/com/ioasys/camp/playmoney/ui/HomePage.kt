@@ -24,7 +24,7 @@ class HomePage  :  AppCompatActivity() {
             val intent = Intent (this, MainActivity::class.java)
             startActivity(intent)
         }
-        ButtonIcHelp.setOnClickListener(){
+        ButtonHelp.setOnClickListener(){
             val intent = Intent(this, Teacher::class.java)
             startActivity(intent)
         }
