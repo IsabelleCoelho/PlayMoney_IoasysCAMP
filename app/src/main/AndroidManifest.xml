@@ -12,6 +12,7 @@
         <activity android:name=".ui.ForgotPassword" />
         <activity android:name=".ui.CreateAccount" />
         <activity android:name=".ui.CreatePassword"/>
+        <activity android:name=".ui.Teacher"/>
         <activity android:name=".ui.HomePage"/>
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -6,7 +6,6 @@ import br.com.ioasys.camp.playmoney.MainActivity
 import kotlinx.android.synthetic.main.activity_forgot_password.*
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
 
 class ForgotPassword : AppCompatActivity() {
 

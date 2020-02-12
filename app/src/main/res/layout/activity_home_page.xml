@@ -19,7 +19,7 @@
         />
 
     <ImageButton
-        android:id="@+id/IcBars"
+        android:id="@+id/ButtonIcBars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/ic_bars"
@@ -32,7 +32,7 @@
         android:background="@android:color/transparent"
         />
     <ImageButton
-        android:id="@+id/IcHelp"
+        android:id="@+id/ButtonIcHelp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
@@ -49,8 +49,8 @@
         android:id="@+id/MissonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintRight_toLeftOf="@+id/IcHelp"
-        app:layout_constraintLeft_toRightOf="@+id/IcBars"
+        app:layout_constraintRight_toLeftOf="@+id/ButtonIcHelp"
+        app:layout_constraintLeft_toRightOf="@+id/ButtonIcBars"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="35dp"
         app:layout_goneMarginBottom="5dp"
@@ -208,6 +208,7 @@
         />
 
     <Button
+        android:id="@+id/ButtonFinalizeGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/ButtonNextMonth"
