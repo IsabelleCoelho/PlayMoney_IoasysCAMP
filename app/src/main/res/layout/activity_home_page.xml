@@ -46,6 +46,7 @@
         />
 
     <TextView
+        android:id="@+id/MissonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintRight_toLeftOf="@+id/IcHelp"
@@ -59,7 +60,69 @@
         android:fontFamily="@font/aldrich"
         />
 
+    <TextView
+        android:id="@+id/Objective"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf = "@id/mToolbar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="Objetivo: alcançar R$50,00"
+        android:textColor="@color/white_app"
+        android:background="@drawable/ojective"
+        android:textSize="25dp"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="25dp"
+        />
 
+    <Button
+        android:id="@+id/ButtonTittleBuying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Objective"
+        app:layout_constraintLeft_toLeftOf="@+id/Objective"
+        android:text="Comprar títulos"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_shopping_cart"
+        android:drawableTint="@color/game_gray_app"
+        android:drawablePadding="5dp"
+        android:textColor="@color/game_gray_app"
+        android:background="@drawable/white_background"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:id="@+id/MoneyPerMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/Objective"
+        app:layout_constraintRight_toRightOf="@+id/Objective"
+        android:text="R$1.000,00"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_money_bill_wave"
+        android:drawableTint="@color/game_gray_app"
+        android:drawablePadding="5dp"
+        android:textColor="@color/game_gray_app"
+        android:background="@drawable/white_background"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLACEHOLDER"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonTittleBuying"
+        app:layout_constraintRight_toRightOf="@+id/Objective"
+        app:layout_constraintLeft_toLeftOf="@+id/Objective"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        />
 
 
 
