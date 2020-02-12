@@ -11,6 +11,8 @@ class HomePage  :  AppCompatActivity() {
         setContentView(R.layout.activity_home_page)
 
         setSupportActionBar(mToolbar)
+        val actionBar = supportActionBar
+        actionBar?.title = " "
     }
 
 }
