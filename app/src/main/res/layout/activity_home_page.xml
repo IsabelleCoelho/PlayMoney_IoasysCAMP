@@ -18,32 +18,46 @@
         android:minHeight="?attr/actionBarSize"
         />
 
-        <ImageButton
-            android:id="@+id/IcBars"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_bars"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_margin="20dp"
-            android:minWidth="60dp"
-            android:minHeight="60dp"
-            android:tint="@color/white_app"
-            android:background="@android:color/transparent"
-            />
-        <ImageButton
-            android:id="@+id/IcHelp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="60dp"
-            android:minHeight="60dp"
-            android:layout_margin="20dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:tint="@color/white_app"
-            app:srcCompat="@drawable/ic_question"
-            android:background="@android:color/transparent"
-            />
+    <ImageButton
+        android:id="@+id/IcBars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_bars"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:tint="@color/white_app"
+        android:background="@android:color/transparent"
+        />
+    <ImageButton
+        android:id="@+id/IcHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tint="@color/white_app"
+        app:srcCompat="@drawable/ic_question"
+        android:background="@android:color/transparent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@+id/IcHelp"
+        app:layout_constraintLeft_toRightOf="@+id/IcBars"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="35dp"
+        app:layout_goneMarginBottom="5dp"
+        android:text="Missão SELIC"
+        android:textColor="@color/white_app"
+        android:textSize="25dp"
+        android:fontFamily="@font/aldrich"
+        />
 
 
 
