@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_app">
+
+    <ImageButton
+        android:id="@+id/ButtonBackLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_left" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/TittleCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ButtonBackLogin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin ="10dp"
+        android:text="Cadastro"
+        android:textColor="@color/blue_app"
+        android:textStyle="bold"
+        android:fontFamily="@font/aldrich"
+        android:textSize="35dp" />
+
+
+    <TextView
+        android:id="@+id/NameText"
+        style="@style/InputTittleStyle"
+        android:text="Apelido:"
+        app:layout_constraintBottom_toTopOf="@id/NameInput"
+        app:layout_constraintLeft_toLeftOf="@id/NameInput"
+        app:layout_constraintTop_toBottomOf="@id/TittleCreateAccount" />
+
+    <EditText
+        android:id="@+id/NameInput"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="35dp"
+        android:hint="Apelido"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/TittleCreateAccount" />
+
+    <TextView
+        android:id="@+id/EmailText"
+        style="@style/InputTittleStyle"
+        android:text="E-mail:"
+        app:layout_constraintBottom_toTopOf="@id/EmailInput"
+        app:layout_constraintLeft_toLeftOf="@id/EmailInput"
+        app:layout_constraintTop_toBottomOf="@id/NameInput" />
+
+    <EditText
+        android:id="@+id/EmailInput"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="35dp"
+        android:hint="E-mail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/NameInput" />
+
+
+    <TextView
+        android:id="@+id/birthdayText"
+        style="@style/InputTittleStyle"
+        app:layout_constraintBottom_toTopOf="@id/BirthdayInput"
+        app:layout_constraintLeft_toLeftOf="@id/BirthdayInput"
+        app:layout_constraintTop_toBottomOf="@id/EmailInput"
+        android:text="Data de Nascimento:"
+        />
+
+    <EditText
+        android:id="@+id/BirthdayInput"
+        style="@style/EditTextStyle"
+        android:layout_marginTop="35dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/EmailInput"
+        android:hint="Data de Nascimento" />
+
+    <TextView
+        android:id="@+id/GenderText"
+        style="@style/InputTittleStyle"
+        app:layout_constraintLeft_toLeftOf="@id/GenderSpinner"
+        app:layout_constraintBottom_toTopOf="@id/GenderSpinner"
+        app:layout_constraintTop_toBottomOf="@id/BirthdayInput"
+        android:text="Gênero:"
+        />
+
+    <Spinner
+        android:id="@+id/GenderSpinner"
+        app:layout_constraintTop_toBottomOf="@id/BirthdayInput"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="35dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+
+        />
+
+    <ImageButton
+        android:id="@+id/ButtonNextPage"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/rounded_button"
+        app:srcCompat="@drawable/ic_arrow_right"
+        android:tint="@color/white_app"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/GenderSpinner" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
