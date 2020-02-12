@@ -25,6 +25,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@color/white_app</item>
         <item name="android:fontFamily">@font/aldrich</item>
+        <item name="android:textColorHint">@color/tint_grey_app</item>
     </style>
 
     <style name="ButtonInvisibleStyle">

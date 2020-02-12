@@ -12,5 +12,6 @@
     <color name="gray_spinner">#A5A5A5</color>
     <color name="dark_blue_app">#22849C</color>
     <color name="dark_orange_app">#D17A3A</color>
-    <color name="light_orange_app">#EEE79D68</color>
+    <color name="light_orange_app">#E28C4D</color>
+    <color name="tint_grey_app">#8B242424</color>
 </resources>
